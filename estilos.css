@@ -43,7 +43,7 @@ body
 .DivMain
 {
     border: 1px solid black;
-    width: 960px; /*Div main 960*/
+    width: 890px; /*Div main 960*/
 
     margin: auto;
 }
@@ -267,23 +267,48 @@ p
     margin: 5px 0;
 }
 
-.ReferenceCaps a
-{
-    padding: 10px 0;
-    color: white;
-    text-transform: uppercase;
-    font-weight:bold;
-    display: inline-block;
-    text-decoration: none;
-    
-}
 
 .ReferenceCaps a:hover
 {
     text-decoration: underline;
-    color: rgb(36, 13, 139);
+    color: rgb(47, 15, 187);
 }
 
+/*Primer banner*/
+.SecondSection
+{
+    width: 100%;
+    height: 550px;
+    background: url('images/Bungou_Stray_Dogs_imagen_fondo1.jpg') ;
+    margin-bottom: 40px;
+}
+
+.SecondSection .BannerOne 
+{
+    width: 25%;
+    color:#262626;
+}
+
+.SecondSection .BannerOne p
+{
+    color: #262626;
+}
+
+/*Boton de yt para uso general*/
+.BotonFastYt
+{
+    display: inline-block;
+    color: #ffffff;
+    background: #262626;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
 
 .pie
 {
