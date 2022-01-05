@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #2f61eb;
+}
+
+.BackgroundDiv
+{
+    
+    width: 800px;
+    height: 700px;
+    color: white;
+    background-image: url(./Img_Contact/Contact_Background.jpg);
+    margin: auto;
+    border-radius: 30px;
+    
+}
+.Social
+{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin: auto;
+    padding-top: 45%;
+    cursor: pointer;
+}
+.Social i
+{
+    text-align: center;
+}
+.Social p
+{
+    padding: 20px;
+    font-size: 50px;
+
+}
+.Social a
+{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Social a:hover
+{
+    text-decoration: underline;
+}
+
+/*Navegacion*/
+
+nav
+{
+    background: rgba(2, 3, 59, 0.733);
+    padding: 25px 10px;
+    text-align: left;
+    height: 50px;
+    border-radius: 15px;
+}
+ul
+{
+    list-style: none;
+}
+.nav li a{
+    padding: 10px 15px;
+    font: bold 15px verdana ;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.nav > li
+{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+
+}
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li
+{
+    position: relative;
+}
+
+.nav li ul li ul
+{
+    top: 0px;
+    right: -150px;
+}
+nav li a
+{
+    background: rgba(2, 3, 59, 0.733);
+    color: #fff;
+}
+
+nav li a:hover
+{
+    background-color: rgb(129, 55, 226);
+    border-radius: 10px;
+}

@@ -148,11 +148,24 @@ aside{
     left:-20px;
 
 }
+
 #SideBar ul li
 {
     text-align: center;
     padding: 15px 10px;
 }
+
+#SideBar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#SideBar ul li a:hover
+{
+    text-decoration: underline;
+}
+
 #SideBar .toggle-btn
 {
     position: absolute;
