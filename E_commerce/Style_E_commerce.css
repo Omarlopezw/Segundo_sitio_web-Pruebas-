@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(./Img_products/Background_of_the_E_commerce.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*Vh se ajusta directamente al tamaño de la pantalla*/
+
+}
+
+/*Determinamos el tamaño de la seccion*/
+section
+{
+    width: 90%;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    /* background-repeat: repeat(4); */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /*background-size: cover;*/
+
+}
+
+/*Contenedor para los productos y carrito*/
+
+.Conteiner
+{
+    width: 300px;
+    background-color: #fff;
+    border: 3px solid darkgrey;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 0 10px 0 ;
+
+}
+
+.Conteiner img
+{
+    width: 150px;
+    height: 150px;
+}
+
+/*Productos a mostrar*/
+
+.Product
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #262626
+
+}
+
+
+/*Boton para sumar determinado producto al carrito*/
+
+.BtnProducts
+{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Contador de cantidad de productos seleccionados*/
+
+.Counter
+{
+    font-size: 35px;
+}
+
+/*Para ocultar con js los productos una vez seleccionados*/
+
+.OcultProduct
+{
+    display: none;
+}
+
+
+/*Navegacion*/
+
+nav
+{
+    background: rgba(2, 3, 59, 0.733);
+    padding: 25px 10px;
+    text-align: left;
+    height: 50px;
+    border-radius: 15px;
+}
+ul
+{
+    list-style: none;
+}
+.nav li a{
+    padding: 10px 15px;
+    font: bold 15px verdana ;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.nav > li
+{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+
+}
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li
+{
+    position: relative;
+}
+
+.nav li ul li ul
+{
+    top: 0px;
+    right: -150px;
+}
+nav li a
+{
+    background: rgba(2, 3, 59, 0.733);
+    color: #fff;
+}
+
+nav li a:hover
+{
+    background-color: rgb(129, 55, 226);
+    border-radius: 10px;
+}
+
+
+.pie
+{
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: auto; /*Se ajusta automaticamente abajo ya que el body tiene una altura minima del 100%*/
+
+}

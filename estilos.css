@@ -275,24 +275,45 @@ p
 }
 
 /*Primer banner*/
-.SecondSection
+.FirstBanner
 {
     width: 100%;
-    height: 550px;
+    height: 560px;
     background: url('images/Bungou_Stray_Dogs_imagen_fondo1.jpg') ;
     margin-bottom: 40px;
 }
 
-.SecondSection .BannerOne 
+.FirstBanner .Banner 
 {
     width: 25%;
     color:#262626;
 }
 
-.SecondSection .BannerOne p
+.FirstBanner .Banner p
 {
     color: #262626;
 }
+
+/*Segundo banner banner*/
+.SecondBanner
+{
+    width: 100%;
+    height: 560px;
+    background: url('images/Bungou_Stray_Dogs_imagen_fondo2.jpg') ;
+    margin-bottom: 40px;
+}
+
+.SecondBanner .Banner 
+{
+    width: 15%;
+    color:#262626;
+}
+
+.SecondBanner .Banner p
+{
+    color: #262626;
+}
+
 
 /*Boton de yt para uso general*/
 .BotonFastYt
